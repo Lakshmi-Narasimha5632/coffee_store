@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sweets and cakes</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-white"><main class="overflow-hidden bg-[#f8f6f2]">
+    <nav class="fixed top-0 left-0 w-full bg-white/95 backdrop-blur-md shadow-sm z-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+        <div class="flex items-center justify-between h-20">
+
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <img src="C:\Users\Lakshminarasimha\Downloads\brew_haven_logo-removebg-preview.png" alt="Logo" class="w-18 h-18">
+
+                <div>
+                    <h1 class="text-2xl font-bold text-[#3E2723]">
+                        Brew Haven
+                    </h1>
+                    <p class="text-xs tracking-[4px] uppercase text-gray-500">
+                        Coffee House
+                    </p>
+                </div>
+            </div>
+
+            
+            <ul class="hidden lg:flex items-center gap-12 font-medium text-gray-700">
+                <li>
+                    <a href="#Home" class="hover:text-[#6F4E37] duration-300">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Menu" class="hover:text-[#6F4E37] duration-300">
+                        Menu
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Categories" class="hover:text-[#6F4E37] duration-300">
+                        Categories
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#About" class="hover:text-[#6F4E37] duration-300">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Contact" class="hover:text-[#6F4E37] duration-300">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Button -->
+            <a href="#"
+               class="hidden lg:inline-flex items-center bg-[#6F4E37] hover:bg-[#5D4037] text-white px-7 py-3 rounded-md font-semibold duration-300 shadow-lg">
+                Order Now →
+            </a>
+
+            <!-- Mobile Menu Icon -->
+            <button class="lg:hidden" aria-label="Open navigation menu">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     class="w-8 h-8"
+                     fill="none"
+                     viewBox="0 0 24 24"
+                     stroke="currentColor">
+
+                    <path stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+
+        </div>
+    </div>
+</nav>
+
+    <section id="Home">
+        <section
+  class="relative min-h-screen bg-[url('https://thumbs.dreamstime.com/b/beauty-cup-coffee-concept-27048501.jpg')] bg-cover bg-center bg-fixed overflow-hidden"
+>
+  <!-- White Overlay -->
+  <div class="absolute inset-0 bg-white/90"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-16">
+    <div class="flex flex-col lg:flex-row items-center justify-between min-h-screen">
+
+      <!-- Left Content -->
+      <div class="lg:w-1/2">
+
+        <p class="text-amber-700 text-xl mb-6">
+          Locally-Owned Coffee Shop Serving Cleveland
+        </p>
+
+        <h1 class="text-6xl lg:text-7xl font-serif leading-tight text-[#2b1f1b]">
+          Brewing Hope &
+          <br>
+          Great Coffee in the
+          <br>
+          heart of Buckeye
+        </h1>
+        <h3 class="mt-10 text-2xl font-semibold">
+          Open 8am – 1pm Monday-Friday
+        </h3>
+
+
+      </div>
+
+      <!-- Right Image -->
+      <div class="lg:w-1/2 flex justify-center mt-20 lg:mt-0">
+
+        <img
+          src="https://thetaverncoffee.com/wp-content/uploads/2025/05/coffeecup-1.png"
+          class="w-full max-w-3xl drop-shadow-2xl"
+          alt="coffee cup"
+        >
+
+      </div>
+
+    </div>
+  </div>
+</section>
+    <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/bean_border-1.png" alt="Banner Image" class="w-full h-auto bg-white"></section>
+    
+    <!-- menu section -->
+    <section id="Menu">
+        <h1 class="text-4xl text-yellow-600 font-bold text-center my-8">Our Menu</h1>
+    <div class="flex flex-row justify-center flex-wrap gap-10">
+        <div class="relative bg-white p-4 shadow-md border border-gray-300 rounded-lg">
+            <div class="absolute top-2 left-2 w-20 h-7 text-white text-center bg-yellow-500 bg-opacity-50 rounded-lg">best seller</div>
+            <div class="absolute top-2 right-2 size-7 h-7 bg-pink-500 rounded-full flex items-center justify-center text-white cursor-pointer hover:bg-pink-600 transition duration-300">
+                    <i class="bi bi-heart"></i>
+                </div>
+
+                <div class="absolute bottom-15 right-2 h-10 w-10 ">
+                    <i class="bi bi-cart"></i>
+                </div>
+            <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/original-14.png" alt="coffee-1" class="w-[230px] h-[230px] object-cover block">
+            <h3 class="text-xl font-bold mb-2">Espresso Shot</h3>
+            <p>Rating:⭐ <span>4.8</span></p>
+                <p>Price: $<span>6.99</span></p>
+                <button class="bg-black text-white px-4 py-2 rounded hover:bg-yellow-500 w-full">
+                    Add To Cart
+                </button>
+        </div>
+        <div class="relative bg-white p-4 shadow-md border border-gray-300 rounded-lg">
+            <div class="absolute top-2 left-2 w-20 h-7 text-white text-center bg-yellow-500 bg-opacity-50 rounded-lg">best seller</div>
+            <div class="absolute top-2 right-2 size-7 h-7 bg-pink-500 rounded-full flex items-center justify-center text-white cursor-pointer hover:bg-pink-600 transition duration-300">
+                    <i class="bi bi-heart"></i>
+                </div>
+
+                <div class="absolute bottom-15 right-2 h-10 w-10 ">
+                    <i class="bi bi-cart"></i>
+                </div>
+            <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/AdobeStock_739399284-scaled.png" alt="coffee-2" class="w-[230px] h-[230px] object-cover block">
+            <h3 class="text-xl font-bold mb-2">Mocha</h3>
+            <p>Rating:⭐ <span>4.3</span></p>
+                <p>Price: $<span>3.99</span></p>
+                <button class="bg-black text-white px-4 py-2 rounded hover:bg-yellow-500 w-full">
+                    Add To Cart
+                </button>
+        </div>
+        <div class="relative bg-white p-4 shadow-md border border-gray-300 rounded-lg">
+            
+            <div class="absolute top-2 left-2 w-20 h-7 text-white text-center bg-yellow-500 bg-opacity-50 rounded-lg">best seller</div>
+            <div class="absolute top-2 right-2 size-7 h-7 bg-pink-500 rounded-full flex items-center justify-center text-white cursor-pointer hover:bg-pink-600 transition duration-300">
+                    <i class="bi bi-heart"></i>
+                </div>
+
+                <div class="absolute bottom-15 right-2 h-10 w-10 ">
+                    <i class="bi bi-cart"></i>
+                </div>
+            <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/original-3.png" alt="coffee-3" class="w-[230px] h-[230px] object-cover block">
+            <h3 class="text-xl font-bold mb-2">Latte</h3>
+            <p>Rating:⭐ <span>4.5</span></p>
+                <p>Price: $<span>4.99</span></p>
+                <button class="bg-black text-white px-4 py-2 rounded hover:bg-yellow-500 w-full">
+                    Add To Cart
+                </button>
+        </div>
+        <div class="relative bg-white p-4 shadow-md border border-gray-300 rounded-lg">
+            <div class="absolute top-2 left-2 w-20 h-7 text-white text-center bg-yellow-500 bg-opacity-50 rounded-lg">best seller</div>
+            <div class="absolute top-2 right-2 size-7 h-7 bg-pink-500 rounded-full flex items-center justify-center text-white cursor-pointer hover:bg-pink-600 transition duration-300">
+                    <i class="bi bi-heart"></i>
+                </div>
+
+                <div class="absolute bottom-15 right-2 h-10 w-10 ">
+                    <i class="bi bi-cart"></i>
+                </div>
+            <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/original-2.png" alt="coffee-4" class="w-[230px] h-[230px] object-cover block">
+            <h3 class="text-xl font-bold mb-2">Cappuccino</h3>
+            <p>Rating:⭐ <span>4.7</span></p>
+                <p>Price: $<span>5.99</span></p>
+                <button class="bg-black text-white px-4 py-2 rounded hover:bg-yellow-500 w-full">
+                    Add To Cart
+                </button>
+        </div>
+    </div></section>
+    <br/><br/>
+    <section>
+    <div class="flex flex-row justify-center flex-wrap gap-10">
+        <div class="bg-white p-4 shadow-md border border-gray-300 rounded-lg">
+            <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/original.png" alt="coffee-5" class="w-[230px] h-[230px] object-cover block">
+            <h3 class="text-xl font-bold mb-2">black coffee</h3>
+            <p>Rating:⭐ <span>4.6</span></p>
+                <p>Price: $<span>5.99</span></p>
+                <button class="bg-black text-white px-4 py-2 rounded hover:bg-yellow-500 w-full">
+                    Add To Cart
+                </button>
+        </div>
+        <div class="bg-white p-4 shadow-md border border-gray-300 rounded-lg">
+            <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/AdobeStock_700681075-scaled.png" alt="coffee-6" class="w-[230px] h-[230px] object-cover block">
+            <h3 class="text-xl font-bold mb-2">Chai Latte</h3>
+            <p>Rating:⭐ <span>4.5</span></p>
+                <p>Price: $<span>4.99</span></p>
+                <button class="bg-black text-white px-4 py-2 rounded hover:bg-yellow-500 w-full">
+                    Add To Cart
+                </button>
+        </div>
+        <div class="bg-white p-4 shadow-md border border-gray-300 rounded-lg">
+            <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/original-5.png" alt="coffee-7" class="w-[230px] h-[230px] object-cover block">
+            <h3 class="text-xl font-bold mb-2">Ginger Tea</h3>
+            <p>Rating:⭐ <span>4.5</span></p>
+            <p>Price: $<span>2.99</span></p>
+            <button class="bg-black text-white px-4 py-2 rounded hover:bg-yellow-500 w-full">
+                Add To Cart
+            </button>
+        </div>
+        <div class="bg-white p-4 shadow-md border border-gray-300 rounded-lg">
+            <img src="https://thetaverncoffee.com/wp-content/uploads/2025/05/original-11.png" alt="coffee-8" class="w-[230px] h-[230px] object-cover block">
+            <h3 class="text-xl font-bold mb-2">Cold Brew</h3>
+            <p>Rating:⭐ <span>4.5</span></p>
+                <p>Price: $<span>5.99</span></p>
+                <button class="bg-black text-white px-4 py-2 rounded hover:bg-yellow-500 w-full">
+                    Add To Cart
+                </button>
+        </div>
+    </div></section><br/><br/>
+
+
+    <section id="Categories">
+        <h1 class="text-4xl text-yellow-600 font-bold text-center my-8">Our Categories</h1>
+        <div class="flex flex-row justify-center flex-wrap gap-10">
+            <div class="bg-white p-0 shadow-md border border-gray-300 rounded">
+                <img src="https://media.istockphoto.com/id/467148153/photo/cup-of-coffee.jpg?s=612x612&w=0&k=20&c=s1QuC2zwcsFCalePnNUkFu2hpIgbbeoMmy81XFAtW1A=" alt="coffee" class="w-[230px] h-[230px] object-cover block rounded">
+                <h3 class="text-xl font-bold mb-2 text-center">Coffee</h3>
+            </div>
+
+            <div class="bg-white p-0 shadow-md border border-gray-300 rounded">
+                <img src="https://media.istockphoto.com/id/1012161746/photo/teacup-cloves.jpg?s=612x612&w=0&k=20&c=gW8pWzniR_HVmI0XYB0ld5kU2akHcx-E-_FuIiiTTvk=" alt="tea" class="w-[230px] h-[230px] object-cover block rounded">
+                <h3 class="text-xl font-bold mb-2 text-center">Tea</h3>
+            </div>
+            <div class="bg-white p-0 shadow-md border border-gray-300 rounded">
+                <img src="https://media.istockphoto.com/id/497892585/photo/homemade-iced-tea-with-lemons.jpg?s=612x612&w=0&k=20&c=bJ9exSdr4HCoTDZvkxt-RkoAlgTtgUxaSaa2hqEQbhU=" alt="Mojito" class="w-[230px] h-[230px] object-cover block rounded">
+                <h3 class="text-xl font-bold mb-2 text-center">Mojito</h3>
+            </div>
+            <div class="bg-white p-0 shadow-md border border-gray-300 rounded">
+                <img src="https://i.pinimg.com/1200x/ea/f2/4d/eaf24d7ff0ce22aec9108e88ca874f2c.jpg" alt="ice-creams" class="w-[230px] h-[230px] object-cover block rounded">
+                <h3 class="text-xl font-bold mb-2 text-center">Ice Creams</h3>
+            </div>
+            </div></section><br/><br/>
+
+
+            <section id="About" class="py-20 bg-[#f8f6f2] scroll-mt-24">
+
+    <h1 class="text-5xl font-bold text-center text-[#6F4E37] mb-16">
+        About Brew Haven
+    </h1>
+
+    <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-16">
+
+        <!-- Left Image -->
+        <div class="lg:w-1/2">
+            <img
+                src="https://i.pinimg.com/736x/36/ea/aa/36eaaa690c56a748012b12d5da883ddb.jpg"
+                alt="Coffee Shop"
+                class="w-400 h-[500px] object-cover rounded-3xl shadow-2xl"
+            >
+        </div>
+
+        <!-- Right Message Box -->
+        <div class="lg:w-1/2">
+
+            <div class="bg-[#6F4E37] text-white rounded-[35px] p-10 shadow-2xl border-l-8 border-yellow-400">
+
+                <p class="uppercase tracking-[5px] text-yellow-300 text-sm mb-3">
+                    Since 2020
+                </p>
+
+                <h2 class="text-5xl font-serif mb-6" class="font-['Cormorant_Garamond'] text-5xl">
+                    More Than Coffee,
+                    <br>
+                    It's an Experience.
+                </h2>
+
+                <p class="text-lg leading-9 font-light text-gray-100 mb-6" class="font-['Poppins']">
+                    At <span class="font-bold text-yellow-300">Brew Haven</span>,
+                    every cup tells a story. We believe coffee is more than just a
+                    drink—it's a place where conversations begin, friendships grow,
+                    and memories are made.
+                </p>
+
+                <p class="italic text-xl text-yellow-200 mb-8" class="font-['Poppins']">
+                    "Freshly brewed coffee, warm smiles, and unforgettable moments."
+                </p>
+
+                <div class="flex gap-8">
+
+                    <div>
+                        <h3 class="text-4xl font-bold text-yellow-300">
+                            20K+
+                        </h3>
+                        <p class="text-gray-200" class="font-['Poppins']">
+                            Happy Customers
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-4xl font-bold text-yellow-300">
+                            50+
+                        </h3>
+                        <p class="text-gray-200" class="font-['Poppins']">
+                            Coffee Varieties
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-4xl font-bold text-yellow-300">
+                            5★
+                        </h3>
+                        <p class="text-gray-200" class="font-['Poppins']">
+                            Customer Rating
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section><br/><br/>
+
+
+<section class="w-full px-[8%] py-20 flex flex-col lg:flex-row justify-between items-center gap-16 bg-[#f8f6f2]" id="Contact">
+
+    <!-- Contact Form -->
+    <div class="flex-1">
+
+        <h2 class="text-5xl font-bold text-gray-900 mb-4">
+            Get In Touch
+        </h2>
+
+        <p class="text-gray-500 text-lg mb-8">
+            We'd love to hear from you. Send us your queries or feedback.
+        </p>
+
+        <form class="flex flex-col gap-5">
+
+            <input
+                type="text"
+                placeholder="Full Name"
+                required
+                class="w-full p-4 border border-gray-300 rounded-xl text-base outline-none focus:border-yellow-500 focus:ring-4 focus:ring-yellow-300/40 transition-all duration-300"
+            >
+
+            <input
+                type="email"
+                placeholder="Email Address"
+                required
+                class="w-full p-4 border border-gray-300 rounded-xl text-base outline-none focus:border-yellow-500 focus:ring-4 focus:ring-yellow-300/40 transition-all duration-300"
+            >
+
+            <input
+                type="tel"
+                placeholder="Phone Number"
+                required
+                class="w-full p-4 border border-gray-300 rounded-xl text-base outline-none focus:border-yellow-500 focus:ring-4 focus:ring-yellow-300/40 transition-all duration-300"
+            >
+
+            <input
+                type="text"
+                placeholder="Subject"
+                class="w-full p-4 border border-gray-300 rounded-xl text-base outline-none focus:border-yellow-500 focus:ring-4 focus:ring-yellow-300/40 transition-all duration-300"
+            >
+
+            <textarea
+                rows="6"
+                placeholder="Write your Message..."
+                class="w-full p-4 border border-gray-300 rounded-xl text-base resize-none outline-none focus:border-yellow-500 focus:ring-4 focus:ring-yellow-300/40 transition-all duration-300"
+            ></textarea>
+
+            <button
+                type="submit"
+                class="bg-black text-white text-lg py-4 rounded-xl hover:bg-yellow-500 hover:text-black transition-all duration-300"
+            >
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- Contact Image -->
+    <div class="flex-1">
+
+        <img
+            src="https://i.pinimg.com/1200x/c4/73/7e/c4737e013a673e196416210867f9b1f8.jpg"
+            alt="Coffee Shop"
+            class="w-full rounded-3xl shadow-2xl"
+        >
+
+    </div>
+
+</section>
+
+
+<footer class="bg-[#2b1f1b] text-white pt-16">
+
+    <div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+        <!-- Brand -->
+        <div>
+            <h2 class="text-3xl font-bold text-yellow-400">
+                Brew Haven
+            </h2>
+
+            <p class="mt-5 text-gray-300 leading-8">
+                Brewing happiness one cup at a time. Experience premium coffee,
+                delicious treats, and a cozy atmosphere that feels like home.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+            <h3 class="text-2xl font-semibold mb-6">
+                Quick Links
+            </h3>
+
+            <ul class="space-y-4 text-gray-300">
+
+                <li>
+                    <a href="#Home" class="hover:text-yellow-400 duration-300">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Menu" class="hover:text-yellow-400 duration-300">
+                        Menu
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Specials" class="hover:text-yellow-400 duration-300">
+                        Specials
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#About" class="hover:text-yellow-400 duration-300">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Contact" class="hover:text-yellow-400 duration-300">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+            <h3 class="text-2xl font-semibold mb-6">
+                Contact
+            </h3>
+
+            <div class="space-y-4 text-gray-300">
+
+                <p>📍 123 Coffee Street, Cleveland</p>
+
+                <p>📞 +1 (555) 123-4567</p>
+
+                <p>✉ info@brewhaven.com</p>
+
+            </div>
+        </div>
+
+        <!-- Opening Hours -->
+        <div>
+            <h3 class="text-2xl font-semibold mb-6">
+                Opening Hours
+            </h3>
+
+            <div class="space-y-4 text-gray-300">
+
+                <p>Monday - Friday</p>
+                <p class="text-yellow-400">8:00 AM - 8:00 PM</p>
+
+                <p>Saturday</p>
+                <p class="text-yellow-400">9:00 AM - 10:00 PM</p>
+
+                <p>Sunday</p>
+                <p class="text-yellow-400">9:00 AM - 6:00 PM</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Social Icons -->
+    <div class="flex justify-center gap-6 mt-14">
+
+        <a href="#" class="w-12 h-12 bg-[#6F4E37] rounded-full flex items-center justify-center hover:bg-yellow-400 hover:text-black duration-300 text-xl">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="#" class="w-12 h-12 bg-[#6F4E37] rounded-full flex items-center justify-center hover:bg-yellow-400 hover:text-black duration-300 text-xl">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#" class="w-12 h-12 bg-[#6F4E37] rounded-full flex items-center justify-center hover:bg-yellow-400 hover:text-black duration-300 text-xl">
+            <i class="fab fa-x-twitter"></i>
+        </a>
+
+        <a href="#" class="w-12 h-12 bg-[#6F4E37] rounded-full flex items-center justify-center hover:bg-yellow-400 hover:text-black duration-300 text-xl">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="border-t border-gray-700 mt-12 py-6 text-center text-gray-400">
+
+        © 2026 <span class="text-yellow-400 font-semibold">Brew Haven</span>. All Rights Reserved.
+
+    </div>
+
+</footer>
+            
+        </div>
+    </main>
+</body>
+</html>
